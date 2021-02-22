@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": ">=7.1",
-        "twig/twig": "^2.4"
+        "twig/twig": "^2.4|^3.0"
     },
     "require-dev": {
         "symfony/framework-bundle": ">=5.0"
