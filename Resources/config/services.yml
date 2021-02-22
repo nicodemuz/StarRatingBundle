@@ -2,9 +2,9 @@ parameters:
 
 services:
     star_rating.type:
-        class: Brokoskokoli\StarRatingBundle\Form\RatingType
+        class: Brokoskokoli\StarRatingBundle\Form\StarRatingType
         tags:
-            - { name: form.type, alias: rating }
+            - { name: form.type, alias: star_rating }
 
     star_rating.twig:
         class: Brokoskokoli\StarRatingBundle\Extensions\StarRatingExtension
