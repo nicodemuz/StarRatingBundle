@@ -12,7 +12,7 @@
 }
 
 .rating div.star , .rating span.star {
-    font-family:FontAwesome;
+    font-family: FontAwesome, "Font Awesome 5 Free";
     font-weight:normal;
     font-style:normal;
     font-size: 25px;
@@ -36,7 +36,7 @@
 }
 
 .rating div.star-full, .rating span.star-full {
-    font-family:FontAwesome;
+    font-family: FontAwesome, "Font Awesome 5 Free";
     font-weight:normal;
     font-style:normal;
     font-size: 25px;
@@ -51,7 +51,7 @@
 }
 
 .rating div.star-empty, .rating span.star-empty {
-    font-family:FontAwesome;
+    font-family: FontAwesome, "Font Awesome 5 Free";
     font-weight:normal;
     font-style:normal;
     font-size: 25px;
