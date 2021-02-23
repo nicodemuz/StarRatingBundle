@@ -12,8 +12,8 @@
 }
 
 .rating div.star , .rating span.star {
-    font-family: FontAwesome, "Font Awesome 5 Free";
-    font-weight:normal;
+    font-family: FontAwesome, "Font Awesome 5 Free", "Font Awesome 5 Pro";
+    font-weight:300;
     font-style:normal;
     font-size: 25px;
     display:inline-block;
@@ -21,23 +21,25 @@
 }
 
 .rating div.star:hover , .rating span.star:hover {
+    font-weight:900;
     cursor:pointer;
 }
 
 .rating div.star:before, .rating span.star:before {
-    content:"\f006";
+    content:"\f005";
     padding-right:5px;
     color:#999;
 }
 
 .rating div.star:hover:before,.rating div.star:hover~div.star:before, .rating span.star:hover:before,.rating span.star:hover~span.star:before {
+    font-weight:900;
     content:"\f005";
     color:#e3cf7a;
 }
 
 .rating div.star-full, .rating span.star-full {
-    font-family: FontAwesome, "Font Awesome 5 Free";
-    font-weight:normal;
+    font-family: FontAwesome, "Font Awesome 5 Free", "Font Awesome 5 Pro";
+    font-weight:900;
     font-style:normal;
     font-size: 25px;
     display:inline-block;
@@ -51,8 +53,8 @@
 }
 
 .rating div.star-empty, .rating span.star-empty {
-    font-family: FontAwesome, "Font Awesome 5 Free";
-    font-weight:normal;
+    font-family: FontAwesome, "Font Awesome 5 Free", "Font Awesome 5 Pro";
+    font-weight:300;
     font-style:normal;
     font-size: 25px;
     display:inline-block;
@@ -60,7 +62,7 @@
 }
 
 .rating div.star-empty:before ,.rating span.star-empty:before  {
-    content:"\f006";
+    content:"\f005";
     padding-right:5px;
     color:#999;
 }
